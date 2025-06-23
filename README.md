@@ -15,27 +15,3 @@ It uses [escape codes](https://en.wikipedia.org/wiki/ANSI_escape_code) to clear 
 ```bash
 go run . plain
 ```
-
-## Bot Player
-
-### Simple
-
-- Implement `Player` interface
-- Select a random move
-
-
-### Complex
-
-Implement the [Minimax](https://en.wikipedia.org/wiki/Minimax) algorithm:
-
-- Implement a way to score the board
-- Recursively play all possible moves
-  - Track score for each board state
-- Score each play sequence on minimum and maximum score
-  - Use maximum score for states where bot is going to move
-  - Use minimum score fot states where player is going to move
-- Pick best option
-
-Example: https://www.neverstopbuilding.com/blog/minimax
-
-
